@@ -33,6 +33,7 @@ int main(int argc, char* argv[])
     //ShellSort(sorted_array,size_array);
    //Sort(sorted_array,size_array);
      prostavubirka(sorted_array,size_array);
+     cout<<" sorted array:"
     for (int counter = 0; counter < size_array; counter++)
     {
         cout <<sorted_array[counter] << "  "; 
